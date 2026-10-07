@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menjalankan Javascript</title>
+    <style>
+      .container {
+        width: 30%;
+        margin: 20px auto;
+        padding: 30px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        border: 1px solid violet;
+      }
+
+      .btn {
+        display: block;
+        width: 300px;
+        height: 40px;
+        font-size: 1.2rem;
+        background-color: burlywood;
+        outline: none;
+        border-radius: 20px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Menjalankan Javascript</h1>
+    <div class="container">
+      <h3>Klik tombol ini dan buka console di chrome</h3>
+      <!-- Javascript dengan inline -->
+      <button class="btn" onclick="console.log('Saya berhasil Diklik..!')">
+        Click Aku
+      </button>
+    </div>
+    <!-- javascript dengan tag script -->
+    <script>
+      console.log(
+        "Ini adalah pembelajaran javascript pertama! \nDengan cara tag Script didalam file HTML",
+      );
+    </script>
+
+    <!-- Menjalankan javascript dengan file external -->
+    <script src="script.js"></script>
+  </body>
+</html>
