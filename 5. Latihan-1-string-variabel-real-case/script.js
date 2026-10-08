@@ -1,10 +1,10 @@
-let firstName, lastName, fullName;
+let frstName, lstName, fllName;
 
 // Mencari tombol untuk melakukan event
 document.getElementById("btn-merge").onclick = function () {
-  ftName = document.getElementById("firstName").value;
-  lsName = document.getElementById("lastName").value;
-  flName = ftName + " " + lsName;
+  frstName = document.getElementById("firstName").value;
+  lstName = document.getElementById("lastName").value;
+  fllName = ftName + " " + lsName;
   // console.log(flName);
 
   document.getElementById("full_name").textContent = flName;
