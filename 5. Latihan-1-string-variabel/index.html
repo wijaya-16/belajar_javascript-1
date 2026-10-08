@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    />
+    <title>Latihan 1 String & Variabel dengan Dom</title>
+
+    <style>
+      body {
+        background-color: #d2d2d2;
+      }
+
+      /* .btn {
+        width: 50%;
+      } */
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row text-center pt-5">
+        <h1>Latihan 1 - Javascript Data</h1>
+      </div>
+
+      <div
+        class="row align-items-center mx-auto justify-content-center flex-column gap-3 mt-5"
+      >
+        <div class="col-4">
+          <div class="input-group">
+            <input
+              type="text"
+              class="form-control"
+              id="firstName"
+              placeholder="Masukkan Nama Depan Anda.."
+              required
+            />
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="input-group">
+            <input
+              type="text"
+              class="form-control"
+              id="lastName"
+              placeholder="Masukkan Nama Belakang Anda.."
+              required
+            />
+          </div>
+          <div class="row justify-content-center mt-4">
+            <button class="btn btn-primary w-auto col-2" id="btn-merge">
+              Gabungkan
+            </button>
+          </div>
+          <div class="row justify-content-cneter mt-5">
+            <label for="read-merge-text" class="font-bold"
+              >Hasil Nama Lengkap Anda:
+            </label>
+            <textarea
+              name="read-merge-text"
+              id="full_name"
+              class="form-control"
+              readonly
+            >
+Nama Lengkap Anda disini  </textarea
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
